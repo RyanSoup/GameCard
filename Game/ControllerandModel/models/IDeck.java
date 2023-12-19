@@ -1,4 +1,4 @@
-package Game.ControllerandModel; 
+package Game.ControllerandModel.models; 
 
 
 

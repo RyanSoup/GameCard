@@ -1,4 +1,4 @@
-package Game.ControllerandModel;
+package Game.ControllerandModel.models;
 
 public class Card{
     /**
@@ -103,9 +103,5 @@ public class Card{
         return out;
 
     }
-    //tostring function
-
-
-
 
 }
