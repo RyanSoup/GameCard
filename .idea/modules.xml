@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GameCard.iml" filepath="$PROJECT_DIR$/.idea/GameCard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/extendedRun/extendedRun.iml" filepath="$PROJECT_DIR$/extendedRun/extendedRun.iml" />
-      <module fileurl="file://$PROJECT_DIR$/extendedUI/extendedUI.iml" filepath="$PROJECT_DIR$/extendedUI/extendedUI.iml" />
     </modules>
   </component>
 </project>
