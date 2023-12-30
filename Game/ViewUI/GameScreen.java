@@ -2,7 +2,7 @@ package Game.ViewUI;
 
 
 import Game.ControllerandModel.models.Card;
-import Game.ControllerandModel.models.Deck; 
+import Game.ControllerandModel.models.Deck;
 import Game.ControllerandModel.models.IDeck;
 
 
