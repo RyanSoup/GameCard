@@ -11,7 +11,7 @@ public class Card{
     * 
     */
 
-    public final int MAXCARDVALUE = 13; 
+    public final int MAXCARDVALUE = 13;  
     private int numOfCard;
     private String suitOfCard; 
 

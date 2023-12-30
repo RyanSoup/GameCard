@@ -1,14 +1,15 @@
 package Game.ViewUI; 
 
-import Game.ControllerandModel.*;
-import Game.ControllerandModel.Card;
-import Game.ControllerandModel.Deck; 
+
+import Game.ControllerandModel.models.Card;
+import Game.ControllerandModel.models.Deck; 
+import Game.ControllerandModel.models.IDeck;
 
 
 
 public class GameScreen{
 int main(){
-    Deck deck;
+    IDeck deck = new Deck(); 
 
 
     return 0; 
