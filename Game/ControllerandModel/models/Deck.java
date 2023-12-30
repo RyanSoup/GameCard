@@ -1,7 +1,5 @@
 package Game.ControllerandModel.models;
 
-import Game.ControllerandModel.models.Card;
-//import Game.ControllerandModel.models.IDeck;
 
 public class Deck implements IDeck{
     public final String suites[] = {"hearts", "diamonds", "spades", "clubs"}; 

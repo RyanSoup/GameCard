@@ -6,13 +6,28 @@ import Game.ControllerandModel.models.Deck;
 import Game.ControllerandModel.models.IDeck;
 
 
-
+/**
+ * 
+ * 
+ */
 public class GameScreen{
-int main(){
-    IDeck deck = new Deck(); 
+
+    public static IDeck deck; 
 
 
-    return 0; 
-}
+    /**
+     * Main method for deck of cards
+     * @pre none
+     * @post deck = new Deck(); 
+     * @return void
+     */
+    public static void main(){
+        deck = new Deck(); 
+        Card next = deck.topOfDeck(); 
+        next.toString(); 
+
+        return; 
+    }
+
 
 }

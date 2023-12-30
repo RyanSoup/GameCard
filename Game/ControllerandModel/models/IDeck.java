@@ -1,6 +1,6 @@
 package Game.ControllerandModel.models; 
 
-import Game.ControllerandModel.models.Card;
+
 /**
  * Deck represents a Deck of card objects
  * 
