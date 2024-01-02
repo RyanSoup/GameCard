@@ -27,8 +27,10 @@ public class GameScreen{
         deck = new Deck(); 
         deck.shuffleDeck();
         Card idk = deck.topOfDeck();
-        String cardVal = idk.toString(); 
+        String cardVal = idk.cardToString(); 
         System.out.println(cardVal); 
+        Card testsC = new Card(10, "clubs"); 
+        System.out.println(testsC.cardToString());
 
 
         return; 
