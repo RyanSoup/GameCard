@@ -22,7 +22,8 @@ package Game.ControllerandModel.models;
 public interface IDeck {
 
     public final int MAXCARDS = 52; 
-    
+    public final int MAXCARDVALUE = 13;
+    public final int NUMSUITS = 4;
     
 /**
  * Shuffles the deck of cards

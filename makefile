@@ -1,6 +1,5 @@
 default: 
-javac GameCard/ControllerandModel/models/Card.java GameCard/ControllerandModel/models/Deck.java 
-GameCard/ControllerandModel/models/IDeck.java GameCard/ViewUI/GameScreen.java
+javac GameCard/ControllerandModel/models/Card.java GameCard/ControllerandModel/models/Deck.java GameCard/ControllerandModel/models/IDeck.java GameCard/ViewUI/GameScreen.java
 
 
 run:

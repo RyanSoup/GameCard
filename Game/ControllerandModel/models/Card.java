@@ -36,7 +36,7 @@ public class Card{
      * @postnumOfCard #= numOfCard AND suitOfCard = suitOfCard AND getNumOfCard = numOfCard
      * @return numOfCard = [number of the card]
      */
-    int getNumOfCard(){
+    public int getNumOfCard(){
         return numOfCard;
     }
     
@@ -46,7 +46,7 @@ public class Card{
      * @post numOfCard #= numOfCard AND suitOfCard #= suitOfCard AND getSuitOfCard = suitOfCard
      * @return suitOfCard = [string value of the suit of card]
      */
-    String getSuitOfCard(){
+    public String getSuitOfCard(){
         return suitOfCard; 
     }
 
@@ -57,7 +57,7 @@ public class Card{
      * @post numOfCard = number AND suitOfCard #= suitOfCard and setNumOfCard = void
      * @return void
      */
-    void setNumOfCard(int number){
+    public void setNumOfCard(int number){
         numOfCard = number;
         return; 
     }
@@ -68,7 +68,7 @@ public class Card{
      * @post numOfCard #= numOfCard AND suitOfCard = suit AND setSuitOfCard = void
      * @return void
      */
-    void setSuitOfCard(String suit){
+    public void setSuitOfCard(String suit){
         suitOfCard = suit; 
         return;
     }
@@ -81,7 +81,7 @@ public class Card{
      * @post numOfCard #= numOfCard AND suitOfCard #= suitOfCard AND isEquals = [true if equals, OW false]
      * @return [true if objects are equal, OW false]
      */
-    Boolean isEquals(Object obj){
+    public Boolean isEquals(Object obj){
         if( obj instanceof Card){
             Card checkCard = (Card) obj; 
             if(this.numOfCard == checkCard.getNumOfCard() 
@@ -98,7 +98,7 @@ public class Card{
      * @post numOfCard #= numOfCard AND suitOfCard #= suitOfCard AND cardToString = out
      * @return [string of card including its number and suit]
      */
-    String cardToString(){
+    public String cardToString(){
         String out = "The "+this.getNumOfCard()+" of "+this.getSuitOfCard()+".";
         return out;
 

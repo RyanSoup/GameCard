@@ -21,10 +21,15 @@ public class GameScreen{
      * @post deck = new Deck(); 
      * @return void
      */
-    public static void main(){
+
+
+    public static void main(String[] args){
         deck = new Deck(); 
-        Card next = deck.topOfDeck(); 
-        next.toString(); 
+        deck.shuffleDeck();
+        Card idk = deck.topOfDeck();
+        String cardVal = idk.toString(); 
+        System.out.println(cardVal); 
+
 
         return; 
     }
