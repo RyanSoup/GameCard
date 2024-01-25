@@ -6,7 +6,7 @@ import java.util.*;
 public class Deck implements IDeck{
     public final String suites[] = {"hearts", "diamonds", "spades", "clubs"}; 
     private Card deckOfCards[];
-    private int position; 
+    private int position = 0; 
 /**
  *Constructor for deck of cards
  *@pre none
@@ -55,7 +55,7 @@ public void shuffleDeck(){
  */
 public Card topOfDeck(){
     position++;
-    return deckOfCards[position];
+    return deckOfCards[position - 1];
 }
 
 
