@@ -44,5 +44,13 @@ public interface IDeck {
     public Card topOfDeck();
 
 
+    /**
+     * Checks to see if end of deck has been reached
+     * @pre none
+     * @post self #=self and endOfDeck = [true if position in deck < MAXCARDS, OW false]
+     * @return boolean of whether end of deck has been reached
+     */
+    public boolean endOfDeck();
+
     
 }

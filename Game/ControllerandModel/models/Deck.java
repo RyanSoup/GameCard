@@ -59,4 +59,12 @@ public Card topOfDeck(){
 }
 
 
+public boolean endOfDeck(){
+    if(position < 51)
+        return true;
+    return false; 
+
+}
+
+
 }

@@ -42,7 +42,7 @@ public class GameScreen{
             System.out.println("Continue?\n");
             uinput = userScan.nextLine();
             fc = uinput.charAt(0); 
-            }while(checkUInput(fc));
+            }while(checkUInput(fc) && deck.endOfDeck());
         }
 
         userScan.close();
